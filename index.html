@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/adaptive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <nav class="header__nav">
+                    <div class="header__datepicker">
+                        <div class="datepicker__btn">day</div>
+                        <div class="datepicker__btn">week</div>
+                        <div class="datepicker__btn">month</div>
+                        <div class="datepicker__btn">custom</div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                <div class="main__input">
+                    <div class="main__input-block">
+                        <div class="input__item-block">
+                            <div class="input__item-title">сrid</div>
+                            <input class="input__item" type="text" placeholder="Ввести">
+                        </div>
+                        <div class="input__item-block">
+                            <div class="input__item-title">ad_type</div>
+                            <input class="input__item" type="text" placeholder="Ввести">
+                        </div>
+                        <div class="input__item-block">
+                            <div class="input__item-title">client_id</div>
+                            <input class="input__item" type="text" placeholder="Ввести">
+                        </div>
+                        <div class="input__item-block">
+                            <div class="input__item-title">client_index</div>
+                            <input class="input__item" type="text" placeholder="Ввести">
+                        </div>
+                        <div class="input__item-block">
+                            <div class="input__item-title">segment_id</div>
+                            <input class="input__item" type="text" placeholder="Ввести">
+                        </div>
+                        <div class="input__item-block">
+                            <div class="input__item-title">geo</div>
+                            <input class="input__item" type="text" placeholder="Ввести">
+                        </div>
+                        <div class="input__item-block">
+                            <div class="input__item-title">tag_id</div>
+                            <input class="input__item" type="text" placeholder="Ввести">
+                        </div>
+                        <div class="input__item-block">
+                            <div class="input__item-title">source_id</div>
+                            <input class="input__item" type="text" placeholder="Ввести">
+                        </div>
+                        <div class="input__item-block">
+                            <div class="input__item-title">banner_size</div>
+                            <input class="input__item" type="text" placeholder="Ввести">
+                        </div>
+                        <div class="input__item-block">
+                            <div class="input__item-title">device_type</div>
+                            <input class="input__item" type="text" placeholder="Ввести">
+                        </div>
+                    </div>
+
+                    <div class="main__select-block">
+                        <div class="order-buttons">
+                            <div class="order-btn" id="btn-up" tabindex="0">
+                                <img src="img/up.png" alt="">
+                            </div>
+                            <div class="order-btn" id="btn-down" tabindex="0">
+                                <img src="img/down.png" alt="">
+                            </div>
+                        </div>
+                        <div class="select__item-block">
+                            <div class="select__item-title">
+                                Группировка
+                            </div>
+                            <select name="" id="">
+                                <option value="date">Date</option>
+                                <option value="ctr">CTR</option>
+                                <option value="bidfloor">Bid Floor</option>
+                                <option value="segment_id">Segment ID</option>
+                                <option value="clicks_count">Clicks Count</option>
+                                <option value="crid">CRID</option>
+                                <option value="real_clicks_count">Real Clicks Count</option>
+                                <option value="wins_count">Wins Count</option>
+                                <option value="client_index">Client Index</option>
+                                <option value="source_id">Source ID</option>
+                                <option value="tag_id">Tag ID</option>
+                                <option value="banner_size">Banner Size</option>
+                                <option value="geo">Geo</option>
+                                <option value="win_rate">Win Rate</option>
+                                <option value="amount">Amount</option>
+                                <option value="client_id">Client ID</option>
+                                <option value="render_rate">Render Rate</option>
+                                <option value="real_ctr_rate">Real CTR Rate</option>
+                                <option value="renders_count">Renders Count</option>
+                                <option value="ctr_rate">CTR Rate</option>
+                                <option value="ad_type">Ad Type</option>
+                                <option value="cpm">CPM</option>
+                                <option value="real_ctr">Real CTR</option>
+                                <option value="device_type">Device Type</option>
+                                <option value="auction_participation_rate"> Auction Participation Rate </option>
+                                <option value="auction_participation_count"> Auction Participation Count</option>
+                                <option value="bid_requests_count">Bid Requests Count</option>
+                            </select>
+                        </div>
+
+                        <div class="select__item-block">
+                            <div class="select__item-title">
+                                Выберите формат
+                            </div>
+                            <select name="" id="">
+                                <option value="json">JSON</option>
+                                <option value="html">HTML</option>
+                            </select>
+                        </div>
+
+                        <div class="select__item-block">
+                            <div class="select__item-title">
+                                Order by
+                            </div>
+                            <select name="" id="">
+                                <option value="client_id">client_id</option>
+                                <option value="tag_id">tag_id</option>
+                                <option value="banner_size">banner_size</option>
+                                <option value="crid">crid</option>
+                                <option value="ad_type">ad_type</option>
+                                <option value="segment_id">segment_id</option>
+                                <option value="geo">geo</option>
+                                <option value="client_index">client_index</option>
+                                <option value="source_id">source_id</option>
+                                <option value="device_type">device_type</option>
+                            </select>
+                        </div>
+                        
+                    </div>
+
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

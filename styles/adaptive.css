@@ -1,0 +1,16 @@
+@media screen and (max-width: 1000px) {
+    .container {
+        width: 800px;
+    }
+    .input__item-block {
+        width: 140px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .container {
+        width: 600px;
+    }
+    .input__item-block {
+        width: 100px;
+    }
+}
